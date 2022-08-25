@@ -1,0 +1,51 @@
+{
+  "name": "bn-ansi-to-unicode",
+  "version": "1.0.0",
+  "description": "ANSI bangla font (Bijoy) to Unicode converter in Typescript",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BinduLogic/bn-ansi-to-unicode.git"
+  },
+  "keywords": [
+    "ANSI",
+    "to",
+    "Unicode",
+    "Bangla",
+    "Bijoy",
+    "Converter",
+    "Bengali",
+    "Bijoy",
+    "ANSI",
+    "Unicode",
+    "TextConverter"
+  ],
+  "author": "Sadequs Haque",
+  "devDependencies": {
+    "@types/jest": "^24.0.11",
+    "babel-jest": "^24.5.0",
+    "jest": "^24.5.0",
+    "ts-jest": "^24.0.1",
+    "typescript": "^3.4.1"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BinduLogic/bn-ansi-to-unicode/issues"
+  },
+  "homepage": "https://github.com/BinduLogic/bn-ansi-to-unicode#readme",
+  "jest": {
+    "transform": {
+      "^.+\\.js?$": "babel-jest",
+      "^.+\\.ts?$": "ts-jest"
+    },
+    "moduleFileExtensions": [
+      "ts",
+      "js"
+    ]
+  }
+}
