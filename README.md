@@ -4,7 +4,7 @@ Typescript Bangla text ANSI (Bijoy) to Unicode format converter. The original au
 
 ## Usage
 
-Import and use bnUnicode2ANSI is the function you need.
+Import and use bnAnsiToUnicode
 
 ```javascript
 import bnAnsiToUnicode from 'bn-ansi-to-unicode'
