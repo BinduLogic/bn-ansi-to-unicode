@@ -4,8 +4,9 @@ Typescript Bangla text ANSI (Bijoy) to Unicode format converter. The original au
 
 ## Usage
 
-Import and use. bnUnicode2ANSI is the function you need.
+Import and use bnUnicode2ANSI is the function you need.
 
-```
-bnBijoy2Unicode("Avgvi †mvbvi evsjv, Avwg †Zvgvq fv‡jvevwm|");
+```javascript
+import bnAnsiToUnicode from 'bn-ansi-to-unicode'
+bnAnsiToUnicode("Avgvi †mvbvi evsjv, Avwg †Zvgvq fv‡jvevwm|");
 ```
